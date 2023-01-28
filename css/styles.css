@@ -1,9 +1,11 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  color:#2E2F42;
+  ;
 }
 .link {
   text-decoration: none;
-  color: #2e2f42;
+  
 }
 .link:hover,
 .link:focus {
