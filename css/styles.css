@@ -4,6 +4,8 @@ body {
 }
 .link {
   text-decoration: none;
+  color: #2E2F42 ;
+  font-style: normal;
 }
 .link:hover,
 .link:focus {
@@ -27,13 +29,15 @@ body {
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
- 
 }
 .phone-number {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail{
   color: #434455;
 }
 .btn {
@@ -50,8 +54,41 @@ body {
   color: #4d5ae5;
   cursor: pointer;
 }
+.main-btn{
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+
+}
 .btn:hover,
 .btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.main-title{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.second-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+.third-title{
+font-weight: 500;
+font-size: 20px;
+line-height:1.2;
+letter-spacing: 0.02em;
+}
+.text{
+font-weight: 400;
+font-size: 16px;
+line-height:1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
