@@ -1,10 +1,16 @@
+
+:root{
+  --text-color: #434455;
+--main-color:#2e2f42;
+--btn-hover-color:#4D5AE5;
+}
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family:"Roboto","Raleway", sans-serif;
+  color: var(--main-color);
 }
 .link {
   text-decoration: none;
-  color: #2E2F42 ;
+  color: var(--main-color) ;
   font-style: normal;
 }
 .link:hover,
@@ -22,7 +28,7 @@ body {
   font-weight: 800;
 }
 .logo-item {
-  color: #4d5ae5;
+  color: var(--btn-hover-color);
 }
 .menu-item {
   font-weight: 500;
@@ -35,52 +41,43 @@ body {
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:var(--text-color);
 }
 .mail{
-  color: #434455;
+  color:var(--text-color);
 }
-.btn {
+.btn{
+  font-family:inherit;
+  font-weight: 500;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-  width: 116px;
   height: 48px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  color: #4d5ae5;
+  color: #4D5AE5;
   cursor: pointer;
-}
-.main-btn{
-width: 169px;
-height: 56px;
-left: 636px;
-top: 428px;
-
 }
 .btn:hover,
 .btn:focus {
   color: #ffffff;
-  background-color: #404bbf;
+  background-color:var(--btn-hover-color);
 }
 
 .main-title{
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .second-title{
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 }
 .third-title{
-font-weight: 500;
 font-size: 20px;
 line-height:1.2;
 letter-spacing: 0.02em;
